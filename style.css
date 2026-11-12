@@ -1,0 +1,133 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.body-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #edba6f);
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.heading {
+    display: block;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }  
+}
+
+.sub-heading {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.calculator {
+    display: block;
+    width: 340px;
+    height: auto;
+    max-height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    background: linear-gradient(to bottom, #474747, #6f6e6e);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+
+}
+
+.label {
+    font-size: 16px;
+    text-align: left;
+    align-self: flex-start;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.calculate-button {
+    width: 100%;
+    max-width: 340px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #ff9900, #ff6600);
+
+    color: #ffffff;
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+.calculate-button:hover {
+    background-color: #ffcc00;
+}
+
+.birthday-row {
+    display: flex;
+    width: 100%;
+    max-width: 340px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.input-field {
+    width: 100%;
+    max-width: 340px;
+    padding: 10px;
+    font-size:16px;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    font-family: Arial, sans-serif;
+   
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.age-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

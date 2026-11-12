@@ -1,0 +1,20 @@
+{
+  "name": "agecalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "js-datepicker": "^5.18.4",
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
